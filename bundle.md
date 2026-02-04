@@ -6,20 +6,12 @@ bundle:
 
 includes:
   - bundle: git+https://github.com/microsoft/amplifier-foundation@main
+  - bundle: superpowers:behaviors/superpowers-methodology.yaml
 
 # Skills configuration - load original superpowers skills
 skills:
   dirs:
     - superpowers:superpowers-upstream/skills
-
-# Agents available in this bundle
-agents:
-  include:
-    - superpowers:implementer
-    - superpowers:spec-reviewer
-    - superpowers:code-quality-reviewer
-    - superpowers:brainstormer
-    - superpowers:plan-writer
 ---
 
 # Superpowers Development Methodology
