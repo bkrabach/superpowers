@@ -14,11 +14,12 @@ skills:
 
 # Agents available in this bundle
 agents:
-  - superpowers:agents/implementer.md
-  - superpowers:agents/spec-reviewer.md
-  - superpowers:agents/code-quality-reviewer.md
-  - superpowers:agents/brainstormer.md
-  - superpowers:agents/plan-writer.md
+  include:
+    - superpowers:agents/implementer.md
+    - superpowers:agents/spec-reviewer.md
+    - superpowers:agents/code-quality-reviewer.md
+    - superpowers:agents/brainstormer.md
+    - superpowers:agents/plan-writer.md
 ---
 
 # Superpowers Development Methodology
