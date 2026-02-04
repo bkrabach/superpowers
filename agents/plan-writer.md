@@ -40,7 +40,7 @@ Assume the implementer:
 ```markdown
 # [Feature Name] Implementation Plan
 
-> **For Claude:** REQUIRED: Use superpowers:subagent-driven-development to implement this plan.
+> **Execution:** Use the subagent-driven-development workflow to implement this plan.
 
 **Goal:** [One sentence]
 **Architecture:** [2-3 sentences about approach]
