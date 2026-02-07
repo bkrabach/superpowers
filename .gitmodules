@@ -13,3 +13,6 @@
 [submodule "modes-upstream"]
 	path = modes-upstream
 	url = https://github.com/microsoft/amplifier-bundle-modes.git
+[submodule "tool-skills-upstream"]
+	path = tool-skills-upstream
+	url = https://github.com/microsoft/amplifier-module-tool-skills.git
