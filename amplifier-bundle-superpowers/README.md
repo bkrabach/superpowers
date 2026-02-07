@@ -1,15 +1,22 @@
 # amplifier-bundle-superpowers
 
-A development methodology bundle for [Amplifier](https://github.com/microsoft/amplifier) based on the [Superpowers](https://github.com/obra/superpowers) framework by Jesse Vincent. Provides TDD enforcement, subagent-driven development, and design-before-code workflows.
+Amplifier bundle for [Superpowers](https://github.com/obra/superpowers), the excellent agentic skills framework and software development methodology created by [Jesse Vincent](https://github.com/obra).
 
-## Overview
+## About Superpowers
 
-This bundle brings the Superpowers development methodology to Amplifier:
+[Superpowers](https://github.com/obra/superpowers) is a battle-tested development methodology that transforms how AI coding agents work. Rather than letting agents jump straight to writing code, Superpowers enforces a disciplined workflow: design first, plan carefully, implement with TDD, and review rigorously. The result is agents that can work autonomously for hours without deviating from your plan.
 
-- **Design Before Code** - Brainstorm and validate designs before touching code
-- **Test-Driven Development** - RED-GREEN-REFACTOR with strict enforcement
-- **Subagent-Driven Development** - Fresh agent per task with two-stage review
-- **Verification Before Completion** - Prove it works, don't just claim it
+The project has earned significant community adoption (43k+ stars) for good reason - it works. The core skills (brainstorming, test-driven development, subagent-driven development, systematic debugging, and more) represent hard-won lessons about what makes AI-assisted development reliable.
+
+This bundle brings full Superpowers support to [Amplifier](https://github.com/microsoft/amplifier), including the original skills library, Amplifier-native agents for the key workflow roles, workflow modes, and a recipe for the subagent-driven development pattern.
+
+## What This Bundle Provides
+
+- **The complete Superpowers skills library** - All 14 original skills, loaded via Amplifier's skills system
+- **5 specialized agents** - Amplifier-native agents for brainstorming, planning, implementation, and two-stage review
+- **3 workflow modes** - `/brainstorm`, `/write-plan`, `/execute-plan` as Amplifier mode shortcuts
+- **Subagent-driven development recipe** - The core execution workflow as a declarative Amplifier recipe
+- **Composable behavior** - Include just the methodology in your own bundles
 
 ## Quick Start
 
@@ -112,7 +119,11 @@ amplifier-bundle-superpowers/
 
 ## Acknowledgments
 
-This bundle is an Amplifier adaptation of [Superpowers](https://github.com/obra/superpowers) by [Jesse Vincent](https://github.com/obra), licensed under MIT. The original project provides a skills framework and software development methodology for coding agents.
+This bundle exists because of the outstanding work by [Jesse Vincent](https://github.com/obra) and the contributors to [Superpowers](https://github.com/obra/superpowers). The methodology, skills, and workflow patterns in this bundle originate from that project. We built this bundle to bring Superpowers support to Amplifier users because we believe it represents some of the best thinking on how to make AI-assisted software development disciplined and reliable.
+
+The original Superpowers project is included as a submodule and its skills are loaded directly - this bundle adds Amplifier-native agents, modes, and recipes on top of that foundation.
+
+Superpowers is licensed under the [MIT License](https://github.com/obra/superpowers/blob/main/LICENSE).
 
 ## Contributing
 
