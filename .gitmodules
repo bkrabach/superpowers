@@ -16,3 +16,6 @@
 [submodule "tool-skills-upstream"]
 	path = tool-skills-upstream
 	url = https://github.com/microsoft/amplifier-module-tool-skills.git
+[submodule "obra-bundle-superpowers"]
+	path = obra-bundle-superpowers
+	url = https://github.com/obra/amplifier-bundle-superpowers.git
