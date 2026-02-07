@@ -10,3 +10,6 @@
 [submodule "superpowers-upstream"]
 	path = superpowers-upstream
 	url = https://github.com/obra/superpowers.git
+[submodule "modes-upstream"]
+	path = modes-upstream
+	url = https://github.com/microsoft/amplifier-bundle-modes.git

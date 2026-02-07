@@ -8,6 +8,14 @@ includes:
   - bundle: git+https://github.com/microsoft/amplifier-foundation@main
   - bundle: superpowers:behaviors/superpowers-methodology.yaml
 
+# Mode hook to discover superpowers modes (brainstorm, write-plan, execute-plan)
+hooks:
+  - module: hooks-mode
+    source: git+https://github.com/microsoft/amplifier-bundle-modes@main#subdirectory=modules/hooks-mode
+    config:
+      search_paths:
+        - modes
+
 # Skills configuration - load original superpowers skills
 skills:
   dirs:
