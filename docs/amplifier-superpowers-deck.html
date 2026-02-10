@@ -1010,9 +1010,8 @@ body {
     <div class="section-label">Get Started</div>
     <div class="headline-medium">Two commands. Works with any bundle.</div>
     <div class="code-block" style="margin-top: clamp(12px, 3vw, 28px); max-width: 800px;"><span class="dim"># Add the methodology to your app settings (works with any active bundle)</span>
-<span class="green">amplifier bundle add</span> <span class="dim">\</span>
-  git+https://github.com/microsoft/amplifier-bundle-superpowers@main<span class="accent">#subdirectory=behaviors/superpowers-methodology.yaml</span> <span class="dim">\</span>
-  --name superpowers
+<span class="green">amplifier bundle add --app</span> <span class="dim">\</span>
+  git+https://github.com/microsoft/amplifier-bundle-superpowers@main<span class="accent">#subdirectory=behaviors/superpowers-methodology.yaml</span>
 
 <span class="dim"># Launch Amplifier (with whatever bundle you already use)</span>
 <span class="green">amplifier</span></div>
@@ -1027,7 +1026,7 @@ body {
             <div class="card" style="padding: clamp(12px, 2vw, 20px);">
                 <div class="card-title" style="font-size: var(--font-small);">Full bundle available</div>
                 <div class="card-desc" style="margin-top: 4px;">
-                    Want modes, recipes, and skills too? Install the full bundle with <span class="mono" style="font-size: 11px;">amplifier bundle add ...@main --name superpowers</span> and activate it.
+                    Want modes, recipes, and skills too? Install the full bundle with <span class="mono" style="font-size: 11px;">amplifier bundle add --app ...@main</span>.
                 </div>
             </div>
         </div>

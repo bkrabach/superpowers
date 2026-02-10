@@ -11,7 +11,7 @@ What changed:
 • All 14 upstream Superpowers skills auto-fetched from obra/superpowers via remote git source, always pulling latest
 
 Try it (works with any bundle you already use):
-amplifier bundle add git+https://github.com/microsoft/amplifier-bundle-superpowers@main#subdirectory=behaviors/superpowers-methodology.yaml --name superpowers
+amplifier bundle add --app git+https://github.com/microsoft/amplifier-bundle-superpowers@main#subdirectory=behaviors/superpowers-methodology.yaml
 
 More info:
 • Repo: github.com/microsoft/amplifier-bundle-superpowers
