@@ -10,7 +10,8 @@ What changed:
 • Composable behavior lets any existing bundle adopt just the methodology and agents without the full superpowers stack
 • All 14 upstream Superpowers skills auto-fetched from obra/superpowers via remote git source, always pulling latest
 
-Try it: amplifier bundle add git+https://github.com/microsoft/amplifier-bundle-superpowers@main --name superpowers
+Try it (works with any bundle you already use):
+amplifier bundle add git+https://github.com/microsoft/amplifier-bundle-superpowers@main#subdirectory=behaviors/superpowers-methodology.yaml --name superpowers
 
 More info:
 • Repo: github.com/microsoft/amplifier-bundle-superpowers
