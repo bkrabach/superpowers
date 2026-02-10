@@ -12,6 +12,12 @@ What changed:
 
 Try it (works with any bundle you already use):
 amplifier bundle add --app git+https://github.com/microsoft/amplifier-bundle-superpowers@main#subdirectory=behaviors/superpowers-methodology.yaml
+amplifier
+
+Then use it:
+/brainstorm    - Design before code
+/execute-plan  - Build with subagent-driven development
+"run the superpowers full development cycle recipe for [your feature]"
 
 More info:
 • Repo: github.com/microsoft/amplifier-bundle-superpowers
